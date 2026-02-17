@@ -1,0 +1,58 @@
+
+1. abstract — Used to declare a class or method that cannot be instantiated or must be overridden in subclasses.  
+2. assert — Used for debugging; checks if a condition is true and throws an AssertionError if false.  
+3. boolean — Primitive data type that can hold only true or false values.  
+4. break — Immediately exits the nearest enclosing loop or switch statement.  
+5. byte — Primitive data type for 8-bit signed integers (-128 to 127).  
+6. case — Defines a value label inside a switch statement.  
+7. catch — Defines a block to handle a specific type of exception thrown in a try block.  
+8. char — Primitive data type for a single 16-bit Unicode character.  
+9. class — Used to declare a class (the blueprint for creating objects).  
+10. const — Reserved keyword (not used in Java; final is used for constants instead).  
+11. continue — Skips the rest of the current loop iteration and proceeds to the next one.  
+12. default — Specifies the default case in a switch, or default method in an interface, or default access level.  
+13. do — Starts a do-while loop that executes the body at least once before checking the condition.  
+14. double — Primitive data type for 64-bit floating-point numbers with double precision.  
+15. else — Executes a block when the if condition is false.  
+16. enum — Declares an enumerated type (a fixed set of named constants).  
+17. export — Used in module declarations (Java 9+)
+18. extends — Indicates that a class inherits from another class or an interface extends another interface.
+19. final — Prevents a variable from being reassigned, a method from being overridden, or a class from being subclassed.  
+20. finally — Defines a block that always executes after a try-catch, regardless of whether an exception occurred.  
+21. float — Primitive data type for 32-bit floating-point numbers.  
+22. for — Used to create a traditional for loop with initialization, condition, and update expressions.  
+23. goto — Reserved keyword (not used in Java; jumps are avoided in favor of structured control flow).  
+24. if — Executes a block of code only if a condition evaluates to true.  
+25. implements — Indicates that a class provides implementations for all methods of one or more interfaces.  
+26. import — Brings classes or entire packages into the current file’s namespace.  
+27. instanceof — Tests whether an object is an instance of a specific class, interface, or subtype.  
+28. int — Primitive data type for 32-bit signed integers.  
+29. interface — Declares a contract of methods that implementing classes must provide.  
+30. long — Primitive data type for 64-bit signed integers.  
+31. native — Indicates that a method is implemented in platform-dependent code (usually C/C++).  
+32. new — Creates a new instance of a class or array.  
+33. package — Declares the package (namespace) that the current source file belongs to.  
+34. private — Access modifier that makes a member visible only within the same class.  
+35. protected — Access modifier that makes a member visible within the same package and in subclasses.  
+36. public — Access modifier that makes a member visible from everywhere.  
+37. return — Exits a method and optionally returns a value to the caller.  
+38. short — Primitive data type for 16-bit signed integers.  
+39. static — Makes a member belong to the class rather than to instances of the class.  
+40. strictfp — Ensures floating-point calculations are portable and consistent across platforms.  
+41. super — Refers to the immediate superclass; used to call superclass constructors or methods.  
+42. switch — Performs multi-way branching based on the value of an expression.  
+43. synchronized — Ensures that only one thread can execute a block or method at a time.  
+44. this — Refers to the current instance of the class.  
+45. throw — Explicitly throws an exception object.  
+46. throws — Declares the checked exceptions that a method might throw.  
+47. transient — Prevents a field from being serialized when an object is written to a stream.  
+48. try — Defines a block where exceptions might occur (used with catch and/or finally).  
+49. void — Indicates that a method does not return any value.  
+50. volatile — Indicates that a variable’s value may change unexpectedly; prevents certain compiler optimizations.  
+51. while — Repeats a block of code as long as a condition remains true.  
+52. underscore(_) — Not used in Java (reserved for future use). 
+53. module — Declares a module (used in module-info.java files for the Java Platform Module System). 
+54. open — Used in module declarations (Java 9+). 
+55. opens — Used in module declarations (Java 9+).  
+56. requires — Used in module declarations (Java 9+). 
+57. to — Used in module declarations (Java 9+). 
